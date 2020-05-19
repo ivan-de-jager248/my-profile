@@ -1,0 +1,128 @@
+body {
+	font-size: 18px;
+	margin: 0px;
+	background-color: rgb(230,230,230);
+}
+
+div {
+	background: white;
+    padding: 60px;
+    margin: 50px auto;
+    box-shadow: 5px 6px 30px 5px rgba(0,0,0,0.2);
+    border-radius: 62px;
+    width: 1770px;
+}
+
+#div-outer {
+	margin: 0px auto;
+    width: 2000px;
+    border-radius: 0px; 
+    box-shadow: 0 0 black; 
+    text-align: center;
+    background-color: rgb(230,230,230);
+}
+
+h2, h3 {
+	font-family: 'Source Code Pro',monospace;
+}
+
+p{
+	color: rgb(100,100,100);
+	font-family: Courier;
+}
+
+h1 {
+	color: red;
+	font-size: 56px;
+	text-shadow: 10px 10px 16px black;
+}
+
+h2 {
+	color: #F9DB06;
+	font-size: 40px;
+}
+
+i {
+	font-size: 50px;
+	color: rgb(50, 168, 168);
+}
+
+img {
+	margin: 0px auto;
+    width: 220px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+
+a{
+	text-decoration: none;
+	color: red;
+	transition: color 0.5s ease;
+}
+
+a:hover{
+	color: yellow;
+}
+
+.list-inline i:hover {
+	color: black;
+	transition: color 1.5s ease;
+}
+
+.list-inline li {
+    padding: 32px;
+    display: inline;
+}
+.list-inline{
+    padding-left: 0px;
+    list-style: none;
+    margin-left: -18px;
+    margin-right: -18px;
+}
+
+input {
+    margin: 7px;
+    border-width: medium;
+}
+
+@media (max-width: 2020px){
+	#div-outer{
+		width: 1500px;
+	}
+	div{
+		width: 1035px;
+	}
+}
+
+@media (max-width: 1400px){
+	#div-outer{
+		width: 1000px;
+	}
+	div{
+		width: 717px;
+	}
+}
+
+
+@media (max-width: 1000px){
+	#div-outer{
+		width: 600px;
+	}
+	div{
+		width: 400px;
+	}
+}
+
+@media (max-width: 680px){
+	#div-outer{
+		width: 389px;
+	}
+	div{
+		width: 200px;
+	}
+}
+
+.text-align{
+	text-align: center;
+}
